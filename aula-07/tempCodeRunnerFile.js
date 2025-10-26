@@ -1,5 +1,8 @@
-const idadePessoa1 = 16;
-const idadePessoa2 = 39;
+const idadeMotorista = 17;
+const temCNH = true;
 
-console.log(idadePessoa1 >= 18 && idadePessoa2 >= 18); // E lógico: retorna true se ambas as condições forem verdadeiras
-console.log(idadePessoa1 >= 18 || idadePessoa2 >= 18);
+if (idadeMotorista >= 18 && temCNH) {
+    console.log('Pode dirigir!');
+} else {
+    console.log('Você NÃO pode dirigir!');
+}
